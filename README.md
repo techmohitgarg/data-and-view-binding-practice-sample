@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This is simple project that contains the activity class,fragment class which are using the different different way to bind the view using view-binding. For More details [Click here](https://developer.android.com/topic/libraries/view-binding)
+This is simple project that contains the activity class,fragment class which are using the different different way to bind the view using view-binding. More details [Click here](https://developer.android.com/topic/libraries/view-binding)
   
 #### Step to enable view-binding into project
 set the viewBinding build option to true in the module-level build.gradle file
@@ -19,6 +19,7 @@ android {
 #### following are practice contains in this example
 - How to use view binding in the activity class (MainActivity.java)
 - How to use view binding in the fragment class using inflate (InflateUsingViewBindingFragment.java)
+- How to use view binding in the fragment class using bind (BindUsingDataBindingFragment.java)
 
 
 License
