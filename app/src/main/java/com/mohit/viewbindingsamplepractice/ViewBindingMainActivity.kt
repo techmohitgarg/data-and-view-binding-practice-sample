@@ -25,7 +25,7 @@ import com.mohit.viewbindingsamplepractice.databinding.ActivityMainBinding
  * This is Activity class which help us to communicate with view using View Binding
  * Here is the example of activity class view binding
  */
-class MainActivity : AppCompatActivity() {
+class ViewBindingMainActivity : AppCompatActivity() {
 
     /**
      * View binding generates a binding object for every layout in your module
@@ -56,12 +56,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun addFragment() {
         supportFragmentManager.commit {
-            add(R.id.frameFragmentOne, InflateUsingViewBindingFragment())
+            add(R.id.frameFragmentOne, ViewBindingInflateFragment())
             setReorderingAllowed(true)
             addToBackStack(null)
         }
         supportFragmentManager.commit {
-            add(R.id.frameFragmentTwo, BindUsingDataBindingFragment())
+            add(R.id.frameFragmentTwo, ViewBindingBindFragment())
             setReorderingAllowed(true)
             addToBackStack(null)
         }

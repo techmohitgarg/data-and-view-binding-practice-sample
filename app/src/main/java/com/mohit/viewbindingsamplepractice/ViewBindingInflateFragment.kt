@@ -23,7 +23,7 @@ import android.view.ViewGroup
 import com.mohit.viewbindingsamplepractice.databinding.FragmentInflateBinding
 
 
-class InflateUsingViewBindingFragment : Fragment() {
+class ViewBindingInflateFragment : Fragment() {
 
 
     private var _binding: FragmentInflateBinding? = null

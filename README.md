@@ -7,7 +7,7 @@
 This is simple project that contains the activity class,fragment class which are using the different different way to bind the view using view-binding. More details [Click here](https://developer.android.com/topic/libraries/view-binding)
   
 #### Step to enable view-binding into project
-set the viewBinding build option to true in the module-level build.gradle file
+enable the viewBinding build option in your build.gradle file in the app module
 ```
 android {
     buildFeatures {
@@ -17,9 +17,24 @@ android {
 ```
 
 #### following are practice contains in this example
-- How to use view binding in the activity class (MainActivity.java)
-- How to use view binding in the fragment class using inflate (InflateUsingViewBindingFragment.java)
-- How to use view binding in the fragment class using bind (BindUsingDataBindingFragment.java)
+- How to use view binding in the activity class ([ViewBindingMainActivity.kt](https://github.com/techmohitgarg/data-and-view-binding-practice-sample/blob/master/app/src/main/java/com/mohit/viewbindingsamplepractice/ViewBindingMainActivity.kt))
+- How to use view binding in the fragment class using inflate ([ViewBindingInflateFragment.kt](https://github.com/techmohitgarg/data-and-view-binding-practice-sample/blob/master/app/src/main/java/com/mohit/viewbindingsamplepractice/ViewBindingInflateFragment.kt))
+- How to use view binding in the fragment class using bind ([ViewBindingBindFragment.kt](https://github.com/techmohitgarg/data-and-view-binding-practice-sample/blob/master/app/src/main/java/com/mohit/viewbindingsamplepractice/ViewBindingBindFragment.kt))
+
+
+## Data-Binding
+
+#### Step to enable data-binding into project
+
+enable the dataBinding build option in your build.gradle file in the app module
+
+```
+android {
+    buildFeatures {
+        dataBinding true
+    }
+}
+```
 
 
 License

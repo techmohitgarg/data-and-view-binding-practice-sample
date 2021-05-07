@@ -24,8 +24,9 @@ import com.mohit.viewbindingsamplepractice.databinding.FragmentInflateBinding
 /**
  * View Binding example with a fragment that uses the alternate constructor for inflation and
  * [onViewCreated] for binding.
+ * Bind - > When Layout has already inflated with fragment after that we 'bind' for binding the view
  */
-class BindUsingDataBindingFragment : Fragment(R.layout.fragment_inflate) {
+class ViewBindingBindFragment : Fragment(R.layout.fragment_inflate) {
 
     // Scoped to the lifecycle of the fragment's view (between onCreateView and onDestroyView)
     private var fragmentBlankBinding: FragmentInflateBinding? = null
